@@ -20,8 +20,7 @@ public class Main {
 		 * System.out.println(message.lastIndexOf("a"));
 		 */
 
-		// -------------------------------- 2. DERS
-		// ----------------------------------------
+		// ------------------ 2. DERS ------------------
 
 		String newMessage = message.replace(' ', '-');
 		System.out.println(newMessage);
