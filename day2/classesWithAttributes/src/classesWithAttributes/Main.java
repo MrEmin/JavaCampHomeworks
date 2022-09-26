@@ -9,10 +9,10 @@ public class Main {
 		product.description = "Apple Macbook Pro";
 		product.price = 27.999;
 		product.stockAmount = 1200;
-		System.out.println(product.name);
 
 		ProductManager productManager = new ProductManager();
 		productManager.Add(product);
+
 	}
 
 }

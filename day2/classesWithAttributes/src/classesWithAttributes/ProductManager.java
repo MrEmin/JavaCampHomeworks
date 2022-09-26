@@ -5,4 +5,8 @@ public class ProductManager {
 		// JDBC - Product'ları veri tabanına kaydeder.
 		System.out.println("Ürün eklendi " + product.name);
 	}
+
+	public void Add2(int id, String name, String description, int stockAmount, double price, int tax) {
+		// Bu çok hatalı bir kullanımdır.
+	}
 }
