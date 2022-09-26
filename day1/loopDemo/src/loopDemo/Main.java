@@ -16,6 +16,16 @@ public class Main {
 			i += 2;
 		}
 		System.out.println("While Döngüsü Bitti.");
+
+		// Do-While
+		int j = 2;
+		do {
+			System.out.println("Loglandý");
+			System.out.println(j);
+			j += 2;
+		} while (j < 10);
+
+		System.out.println("Do-While Döngüsü Bitti.");
 	}
 
 }
