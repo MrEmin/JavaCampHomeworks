@@ -28,7 +28,7 @@ public class Main {
 			sendMessage("Sayı Mevcut Değildir:" + find);
 		}
 	}
-	
+
 	public static void sendMessage(String message) { // parametreli metod
 		System.out.println(message);
 	}
