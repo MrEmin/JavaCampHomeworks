@@ -4,14 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		Product product = new Product();
-		product.name = "Laptop";
-		product.id = 1;
-		product.description = "Apple Macbook Pro";
-		product.price = 27.999;
-		product.stockAmount = 1200;
+		product.setName("Laptop");
+		product.setId(1);
+		product.setDescription("Apple Macbook Pro");
+		product.setPrice(27.999);
+		product.setStockAmount(1200);
 
 		ProductManager productManager = new ProductManager();
 		productManager.Add(product);
+		System.out.println(product.getKod());
 
 	}
 
