@@ -12,7 +12,7 @@ public class Main {
 //		product.setStockAmount(1200);
 
 		ProductManager productManager = new ProductManager();
-		productManager.Add(product);
+		productManager.add(product);
 		System.out.println(product.getKod());
 
 	}
