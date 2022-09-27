@@ -2,15 +2,15 @@ package classes;
 
 public class CustomerManager {
 	// Buraya sadece müşteriyi ilgilendiren metodları yazacağız.
-	public void Add() {
+	public void add() {
 		System.out.println("Müşteri eklendi");
 	}
 
-	public void Remove() {
+	public void remove() {
 		System.out.println("Müşteri silindi");
 	}
 
-	public void Update() {
+	public void update() {
 		System.out.println("Müşteri güncellendi");
 	}
 }

@@ -7,9 +7,9 @@ public class Main {
 		CustomerManager customerManager;
 		CustomerManager customerManager2 = new CustomerManager();
 		customerManager = customerManager2; // customerManager'ın refereans numarası artık customerManager2 ile aynı olmuştur.
-		customerManager.Add();
-		customerManager.Remove();
-		customerManager.Update();
+		customerManager.add();
+		customerManager.remove();
+		customerManager.update();
 
 		int number1 = 10;
 		int number2 = 20;
