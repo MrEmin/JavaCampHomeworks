@@ -8,8 +8,8 @@ public class Main {
 
 		EmployeeManager employeeManager = new EmployeeManager();
 		CustomerManager customerManager = new CustomerManager();
-		employeeManager.BestEmployee();
-		customerManager.Add();
+		employeeManager.bestEmployee();
+		customerManager.add();
 	}
 
 }
